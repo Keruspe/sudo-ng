@@ -1,2 +1,2 @@
-project('sudo-ng', 'c')
-executable('sudo', 'src/main.c')
+project('sudo-ng', 'c', version: '1')
+executable('sudo', 'src/main.c', install: true)
